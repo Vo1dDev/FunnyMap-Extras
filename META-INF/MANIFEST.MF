@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+MixinConfigs: mixins.funnymap.json
+ModSide: CLIENT
+TweakClass: gg.essential.loader.stage0.EssentialSetupTweaker
+TweakOrder: 0
+

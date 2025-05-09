@@ -1,0 +1,76 @@
+{
+  "mappings": {
+    "funnymap/mixins/MixinMinecraft": {
+      "sendClickBlockToController": "Lnet/minecraft/client/Minecraft;func_147115_a(Z)V",
+      "Lnet/minecraft/client/Minecraft;rightClickDelayTimer:I": "Lnet/minecraft/client/Minecraft;field_71467_ac:I",
+      "middleClickMouse": "Lnet/minecraft/client/Minecraft;func_147112_ai()V",
+      "clickMouse": "Lnet/minecraft/client/Minecraft;func_147116_af()V",
+      "rightClickMouse": "Lnet/minecraft/client/Minecraft;func_147121_ag()V"
+    },
+    "funnymap/mixins/MixinChunk": {
+      "setBlockState": "Lnet/minecraft/world/chunk/Chunk;func_177436_a(Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/state/IBlockState;"
+    },
+    "funnymap/mixins/MixinEntityRenderer": {
+      "renderWorld": "Lnet/minecraft/client/renderer/EntityRenderer;func_78471_a(FJ)V"
+    },
+    "funnymap/mixins/MixinNetworkManager": {
+      "channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V": "Lnet/minecraft/network/NetworkManager;channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V"
+    },
+    "funnymap/mixins/MixinItemRenderer": {
+      "renderItemInFirstPerson": "Lnet/minecraft/client/renderer/ItemRenderer;func_78440_a(F)V"
+    },
+    "funnymap/mixins/MixinRenderGlobal": {
+      "renderEntities(Lnet/minecraft/entity/Entity;Lnet/minecraft/client/renderer/culling/ICamera;F)V": "Lnet/minecraft/client/renderer/RenderGlobal;func_180446_a(Lnet/minecraft/entity/Entity;Lnet/minecraft/client/renderer/culling/ICamera;F)V"
+    },
+    "funnymap/mixins/AccessorMinecraft": {
+      "renderItem": "field_175621_X:Lnet/minecraft/client/renderer/entity/RenderItem;"
+    },
+    "funnymap/mixins/MixinRenderManager": {
+      "renderEntitySimple(Lnet/minecraft/entity/Entity;F)Z": "Lnet/minecraft/client/renderer/entity/RenderManager;func_147937_a(Lnet/minecraft/entity/Entity;F)Z"
+    },
+    "funnymap/mixins/MixinAbstractClientPlayer": {
+      "isSpectator()Z": "Lnet/minecraft/client/entity/AbstractClientPlayer;func_175149_v()Z"
+    },
+    "funnymap/mixins/MixinEntityLivingBase": {
+      "getLook": "Lnet/minecraft/entity/EntityLivingBase;func_70676_i(F)Lnet/minecraft/util/Vec3;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "funnymap/mixins/MixinMinecraft": {
+        "sendClickBlockToController": "Lnet/minecraft/client/Minecraft;func_147115_a(Z)V",
+        "Lnet/minecraft/client/Minecraft;rightClickDelayTimer:I": "Lnet/minecraft/client/Minecraft;field_71467_ac:I",
+        "middleClickMouse": "Lnet/minecraft/client/Minecraft;func_147112_ai()V",
+        "clickMouse": "Lnet/minecraft/client/Minecraft;func_147116_af()V",
+        "rightClickMouse": "Lnet/minecraft/client/Minecraft;func_147121_ag()V"
+      },
+      "funnymap/mixins/MixinChunk": {
+        "setBlockState": "Lnet/minecraft/world/chunk/Chunk;func_177436_a(Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/state/IBlockState;"
+      },
+      "funnymap/mixins/MixinEntityRenderer": {
+        "renderWorld": "Lnet/minecraft/client/renderer/EntityRenderer;func_78471_a(FJ)V"
+      },
+      "funnymap/mixins/MixinNetworkManager": {
+        "channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V": "Lnet/minecraft/network/NetworkManager;channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V"
+      },
+      "funnymap/mixins/MixinItemRenderer": {
+        "renderItemInFirstPerson": "Lnet/minecraft/client/renderer/ItemRenderer;func_78440_a(F)V"
+      },
+      "funnymap/mixins/MixinRenderGlobal": {
+        "renderEntities(Lnet/minecraft/entity/Entity;Lnet/minecraft/client/renderer/culling/ICamera;F)V": "Lnet/minecraft/client/renderer/RenderGlobal;func_180446_a(Lnet/minecraft/entity/Entity;Lnet/minecraft/client/renderer/culling/ICamera;F)V"
+      },
+      "funnymap/mixins/AccessorMinecraft": {
+        "renderItem": "field_175621_X:Lnet/minecraft/client/renderer/entity/RenderItem;"
+      },
+      "funnymap/mixins/MixinRenderManager": {
+        "renderEntitySimple(Lnet/minecraft/entity/Entity;F)Z": "Lnet/minecraft/client/renderer/entity/RenderManager;func_147937_a(Lnet/minecraft/entity/Entity;F)Z"
+      },
+      "funnymap/mixins/MixinAbstractClientPlayer": {
+        "isSpectator()Z": "Lnet/minecraft/client/entity/AbstractClientPlayer;func_175149_v()Z"
+      },
+      "funnymap/mixins/MixinEntityLivingBase": {
+        "getLook": "Lnet/minecraft/entity/EntityLivingBase;func_70676_i(F)Lnet/minecraft/util/Vec3;"
+      }
+    }
+  }
+}

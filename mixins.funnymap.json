@@ -1,0 +1,20 @@
+{
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_8",
+  "package": "funnymap.mixins",
+  "refmap": "mixins.funnymap.refmap.json",
+  "client": [
+    "AccessorMinecraft",
+    "MixinAbstractClientPlayer",
+    "MixinChunk",
+    "MixinEntityLivingBase",
+    "MixinEntityPlayerSP",
+    "MixinEntityRenderer",
+    "MixinItemRenderer",
+    "MixinMinecraft",
+    "MixinModList",
+    "MixinNetworkManager",
+    "MixinRenderGlobal",
+    "MixinRenderManager"
+  ]
+}
